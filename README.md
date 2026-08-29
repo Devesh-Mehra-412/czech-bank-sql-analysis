@@ -22,7 +22,7 @@ This is the **Berka dataset**, also known as the PKDD'99 Financial Dataset — r
 | `order` (renamed `order_t` — `order` is a reserved SQL word) | 6,471 | Standing/permanent payment orders |
 | `trans` | 1,056,320 | Individual transactions — deposits, withdrawals, transfers |
 
-See the ER diagram for how these connect — the short version: `district → client/account`, `client ↔ account` via `disp`, and `disp/account → card/loan/order/trans`.
+See the ER diagram for how these connect — ![ER Diagram](er-diagram.png)
 
 ### A note on loan status codes
 - `A` — contract finished, no problems
